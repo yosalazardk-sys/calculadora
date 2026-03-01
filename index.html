@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <title>Calculadora</title>
     <link rel="stylesheet" href="C:\Users\Julieth Ortega\Desktop\calculadora\css\styles.css">
+    <script src="C:\Users\Julieth Ortega\Desktop\calculadora\js\script.js"></script>
 </head>
 <body>
     <div class="calculadora">
         <input type="text" id=pantalla disabled>
         <div class="botones">
-            <button onclick="limpiar()">C</button>
+            <button onclick="limpiar()" id="limpiar">C</button>
             <button onclick="borrar()">←</button>
             <button onclick="agregar('%')">%</button>
             <button onclick="agregar('/')">÷</button>
@@ -29,9 +30,9 @@
             <button onclick="agregar('3')">3</button>
             <button onclick="agregar('+')">+</button>
 
-            <button onclick="agregar('0')">0</button>
+            <button onclick="agregar('0')" id="cero">0</button>
             <button onclick="agregar('.')">.</button>
-            <button onclick="calcular()">=</button>
+            <button onclick="calcular()" id="calcular">=</button>
 
         </div>
     </div>

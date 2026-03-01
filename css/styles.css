@@ -33,5 +33,32 @@ button{
   border-radius: 10px;
   color: #FF9D00;
   cursor:pointer;
-  font-size: 20px
+  font-size: 20px;
+  transition-duration: 0.4s;
+}
+
+button:hover{
+  background-color: #c8f7eb;
+}
+
+#limpiar{
+  background-color: orangered;
+  color: white;
+}
+
+#limpiar:hover{
+  background-color: #ed6c3d;
+}
+
+#cero{
+  grid-column: span 2;
+}
+
+#calcular{
+  background-color: green;
+  color: white;
+}
+
+#calcular:hover{
+  background-color: #608860;
 }
